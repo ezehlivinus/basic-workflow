@@ -1,31 +1,17 @@
-# Basic Workflow - GitHub Actions Foundation
+# Basic Workflow
 
-## Project Overview
-A foundational GitHub Actions project demonstrating core automation concepts with manual workflow triggers and basic job orchestration. This project established the fundamental understanding necessary for building complex CI/CD pipelines.
+Small starter example. Shows a single workflow with a manual trigger and a few simple steps. Good first stop if you are new to GitHub Actions.
 
-## Project Impact
-- **Automation Foundation**: Automated workflow triggers eliminating manual deployment tasks
-- **Team Standardization**: Consistent workflow patterns enabling future team adoption
-- **Knowledge Base**: Reusable documentation supporting rapid team member onboarding
-- **Risk Reduction**: Automated execution minimizing human error in deployment processes
+## What it shows
 
-## Technical Achievements
-- Implemented manual workflow dispatch for controlled automation execution
-- Designed basic job architecture with proper step sequencing
-- Established workflow monitoring and logging practices
-- Created documentation patterns for team knowledge sharing
+- Manual dispatch trigger
+- Basic job with ordered steps
+- Simple echo logging
 
-## Key Skills Developed
-- **GitHub Actions Architecture**: Mastered fundamental YAML syntax and workflow structure
-- **Runner Environment Management**: Understanding of GitHub-hosted runner capabilities
-- **Automation Design**: Basic principles of converting manual processes to automated workflows
-- **DevOps Practices**: Introduction to CI/CD concepts and implementation patterns
+## Why it exists
 
-## Professional Value
-This project demonstrates the ability to:
-- Learn new technologies quickly and implement them effectively
-- Document technical processes for team collaboration
-- Design simple, maintainable automation solutions
-- Establish foundation knowledge for complex system architecture
+Sets the pattern used in the other folders. Nothing fancy on purpose.
 
-**Impact**: This foundational work enabled the development of 9 additional advanced GitHub Actions projects, showcasing progressive skill development and the ability to build upon core concepts to create enterprise-level automation solutions.
+## Next
+
+Look at `job-dependencies` after this one.
