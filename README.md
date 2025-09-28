@@ -1,17 +1,17 @@
 # Basic Workflow
 
-Small starter example. Shows a single workflow with a manual trigger and a few simple steps. Good first stop if you are new to GitHub Actions.
+Single workflow with a manual trigger and a few ordered steps.
 
-## What it shows
+## Purpose
+Show the minimal shape of a workflow used across the other samples.
 
+## Highlights
 - Manual dispatch trigger
-- Basic job with ordered steps
-- Simple echo logging
+- One job with sequential steps
+- Simple logging output
 
-## Why it exists
-
-Sets the pattern used in the other folders. Nothing fancy on purpose.
+## Notes
+Kept intentionally small for clarity.
 
 ## Next
-
-Look at `job-dependencies` after this one.
+`job-dependencies`
